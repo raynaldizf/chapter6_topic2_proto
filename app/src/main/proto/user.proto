@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "com.example.chapter6_topic2_proto";
+option java_multiple_files = true;
+
+message UserPreferences {
+  // filter for showing / hiding completed tasks
+  string name = 1;
+}
